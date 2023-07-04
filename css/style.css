@@ -2,12 +2,15 @@
   padding: 0;
   margin: 0;
   font-family: Helvetica;
-  color: #333;
+  color: black;
   box-sizing: border-box;
 }
 
 body {
-  background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(47,79,84,1) 100%);
+  background-image: url(/img/wallpaper\ 1920x1080.gif);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -63,7 +66,7 @@ input,select {
 .todo-container header {
   text-align: center;
   padding: 0 1rem 1rem;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid black;
 }
 
 
